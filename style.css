@@ -1,0 +1,59 @@
+
+h1 {
+    color: blue;
+    float: inline-start;
+    margin-left: 0%;
+    padding-top: 0%;
+    padding-left: 0;
+}
+
+.form1{
+    width: 60%;
+    float: inline-end;
+    padding-top: 2rem;
+}
+
+.midsection {
+    background-color: #e2e2e2;
+    padding: 10rem;
+}
+.midsection form{
+    margin-inline: auto;
+    border-radius: .5rem;
+    width: 28rem;
+    background-color: #fff;
+}
+
+h2, .centrewithborder, .buttons {
+    padding: 1.5rem;
+    background-color: #fff;
+}
+
+.centrewithborder{
+    border: 1px solid rgb(100, 100, 100);
+    border-left: none;
+    border-right: none;
+}
+
+.centrewithborder input{
+    padding: 1rem;
+    width: calc(100-2rem);
+    margin-top: 1rem;
+    border-radius: .5rem;
+    border: 1px solid #adadad;
+}
+
+.buttons {
+    text-align: right;
+}
+
+.buttons button{
+    padding: .75rem 2rem;
+    border-radius: .5rem;
+    border: 0;
+}
+
+.buttons .btnsearch{
+    background-color: rgb(43, 43, 225);
+    color: #fff;
+}

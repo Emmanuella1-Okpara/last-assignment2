@@ -1,0 +1,93 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    padding: 2rem;
+}
+
+main {
+    max-width: 25rem;
+    width: 25rem;
+    margin-inline: auto;
+    height: 87vh;
+}
+
+main .logo {
+    margin-inline: auto;
+    width: fit-content;
+    margin-bottom: 4rem;
+    height: 2rem;
+}
+
+main h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    width: 25rem;
+    border: none;
+    padding: 1rem;
+    border-radius: .35rem;
+    border: 1px solid rgba(0, 0, 0, 25);
+}
+
+main form input[type="email"] {
+    width: calc(100%-2.25rem);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: .35rem;
+    border: 1px solid rgba(0, 0, 0, 25);
+}
+
+main p {
+    position: relative;
+    margin: 1.5rem 0;
+    text-align: center;
+}
+
+a {
+    color: #10a37f;
+    text-decoration: none;
+}
+
+main .or {
+    position: relative;
+    margin: 1.5em 0;
+    text-align: center;
+}
+
+main .or span {
+    position: relative;
+    background-color: #fff;
+    padding: 1rem;
+}
+main .or::before {
+    content: "";
+    position: absolute;
+    width: 25rem;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 25);
+    left: 0;
+    top: 50%;
+}
+
+.buttons .btn {
+    margin-bottom: .25rem;
+    border: 1px solid rgba(0, 0, 0, 25);
+    background-color: transparent;
+    color: #000;
+    text-align: left;
+}
+
+.buttons .btn i{
+    margin-right: .5rem;
+}
+
+footer {
+    text-align: center;
+}
